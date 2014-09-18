@@ -1,0 +1,77 @@
+html { 
+  background: url(http://www.martinechin.com/wp-content/uploads/2012/04/Supermarket-shopping-cart.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     
+}
+
+.header {
+	width: 550px;
+	height: 100px;
+	margin-bottom: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	background: -webkit-linear-gradient(#FF4D4D, #FF8080);
+	background: -o-linear-gradient(#FF4D4D, #FF8080);
+	background: linear-gradient(#FF4D4D, #FF8080);
+	text-align: center;
+	border-radius: 5px;
+}
+
+.header h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 300%;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.search{
+	width: 550px;
+	height: 39px;
+	margin-bottom: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 24px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.search-bar {
+	width: 550px;
+	height: 45px;
+	margin-bottom: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-radius: 5px;
+
+
+
+}
+
+p {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 26px;
+	margin: 0;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.item {
+	width: 550px;
+	height: 45px;
+	margin-bottom: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#FF4D4D, #FF8080);
+	background: -o-linear-gradient(#FF4D4D, #FF8080);
+	background: linear-gradient(#FF4D4D, #FF8080);
+
+}
