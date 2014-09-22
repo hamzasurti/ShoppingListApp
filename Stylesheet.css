@@ -1,15 +1,17 @@
 html { 
-  background: url(http://www.martinechin.com/wp-content/uploads/2012/04/Supermarket-shopping-cart.jpg) no-repeat center center fixed; 
+ background: url(http://photo.elsoar.com/wp-content/images/Pink-empty-plates-with-fork-spoon-and-knife.jpg) no-repeat center center fixed; 
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-     
+  background-color: rgb(87, 57, 57);
+   
 }
 
 .header {
-	width: 550px;
-	height: 100px;
+	width: 450px;
+	height: 80px;
 	margin-bottom: 7px;
 	margin-right: auto;
 	margin-left: auto;
@@ -21,28 +23,30 @@ html {
 }
 
 .header h1 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 300%;
+	/*font-family: 'Permanent Marker', cursive;*/
+	font-family: 'Josefin Slab', serif;
+	font-size: 250%;
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
 }
 
 .search{
-	width: 550px;
-	height: 39px;
+	width: 450px;
+	height: 24px;
 	margin-bottom: 6px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	border-radius: 5px;
-	font-size: 24px;
+	font-size: 16px;
 	font-family: 'Abril Fatface', cursive;
+
 }
 
 .search-bar {
-	width: 550px;
-	height: 45px;
+	width: 450px;
+	height: 30px;
 	margin-bottom: 6px;
 	margin-right: auto;
 	margin-left: auto;
@@ -55,23 +59,48 @@ html {
 
 p {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 26px;
+	font-size: 2=16px;
 	margin: 0;
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
+  	text-align: center;
 }
 
 .item {
-	width: 550px;
-	height: 45px;
+	width: 450px;
+	height: 30px;
 	margin-bottom: 6px;
 	margin-right: auto;
 	margin-left: auto;
-	text-align: center;
+	
 	border-radius: 5px;
 	background: -webkit-linear-gradient(#FF4D4D, #FF8080);
 	background: -o-linear-gradient(#FF4D4D, #FF8080);
 	background: linear-gradient(#FF4D4D, #FF8080);
+	-moz-box-shadow:    0  1px 1px #ccc;
+  	-webkit-box-shadow: 0  1px 1px #ccc;
+  	box-shadow:         0  1px 1px #ccc;
 
+}
+
+.one, .two {
+	text-decoration: line-through;
+}
+
+
+.check {
+	position: relative;
+	right: 1px;
+	background: url(http://www.iconsdb.com/icons/preview/black/check-mark-xxl.png);
+	height: 24px;
+	width: 24px;
+}
+
+.cross {
+	position: relative;
+	left: 1px;
+	background: url(https://cdn1.iconfinder.com/data/icons/30_Free_Black_ToolBar_Icons/40/Black_Remove.png);
+	height: 24px;
+	width: 24px;
 }
