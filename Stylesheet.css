@@ -81,8 +81,24 @@ li {
 
 }
 
-.item:first-child ,  {
+.complete   {
 	text-decoration: line-through;
+	list-style: none;
+  	font-family: 'Josefin Slab', serif;
+  	text-align: center;
+	width: 450px;
+	height: 30px;
+	margin-bottom: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#d3d3d3, #bdbdbd);
+	background: -o-linear-gradient(#d3d3d3, #bdbdbd);
+	background: linear-gradient(#d3d3d3, #bdbdbd);
+	-moz-box-shadow:    0  1px 1px #ccc;
+  	-webkit-box-shadow: 0  1px 1px #ccc;
+  	box-shadow:         0  2px 2px #ccc;
 }
 
 

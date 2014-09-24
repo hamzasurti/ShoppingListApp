@@ -9,14 +9,17 @@ $(document).ready(function() {
 	function post() {
         var value = $('input').val();
 		$('.list').prepend('<li class="item"><button class="check"></button>'+value+'<button class= "cross"></button></li>')
+		 $('input').val('');
 		}
 
-	$('.cross').on('click', '.cross', function() {
-		$('this').parent.remove()
+	$(document).on('click', '.cross', function(event) {
+		var el = $(event.target);
+		el.parent().fadeOut(300);
 	});
 
-	$('.check').on('click', '.check', function() {
-		$('this').parent.remove()
+	$(document).on('click', '.check', function(event) {
+		var el = $(event.target);
+		el.parent().toggleClass('complete');
 	});
 
 
