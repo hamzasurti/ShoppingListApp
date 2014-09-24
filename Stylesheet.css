@@ -81,7 +81,7 @@ li {
 
 }
 
-.one, .two {
+.item:first-child ,  {
 	text-decoration: line-through;
 }
 
@@ -106,4 +106,9 @@ li {
     background-repeat: no-repeat;
     float: right;
   	transform: translateY(10%);
+}
+
+button {
+	border: 0;
+	cursor: pointer; cursor: hand;
 }

@@ -1,16 +1,25 @@
 $(document).ready(function() {
 	$('input').keyup(function(e){
-        if(e.keyCode == 13){//Enter key pressed
-		alert('mouse entered .ryu div')
-            ;});});})
+        if(e.which == 13){//Enter key pressed
+        post();
+  		}
+	});
 
 
-		/*var value = $(this).val();
-		$('ul').append(<li class="item">
-		    <span class="check"></span>
-		     "+text+"		      
-		    <span class= "cross"></span>  
-		</li>)
-		;})	
-	;})
-;})
+	function post() {
+        var value = $('input').val();
+		$('.list').prepend('<li class="item"><button class="check"></button>'+value+'<button class= "cross"></button></li>')
+		}
+
+	$('.cross').on('click', '.cross', function() {
+		$('this').parent.remove()
+	});
+
+	$('.check').on('click', '.check', function() {
+		$('this').parent.remove()
+	});
+
+
+;}) 
+
+
